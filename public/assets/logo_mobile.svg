@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="41px" viewBox="0 0 86 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header" transform="translate(-116.000000, -33.000000)" fill="#FFFFFF">
+            <g id="logo">
+                <g transform="translate(60.000000, 25.000000)">
+                    <g id="Group-5" transform="translate(56.000000, 0.000000)">
+                        <text id="HOLER" font-family="PlayfairDisplay-Bold, Playfair Display" font-size="24" font-weight="bold">
+                            <tspan x="0" y="26">HOLER</tspan>
+                        </text>
+                        <text id="Luxury-Hotel" font-family="Poppins-Medium, Poppins" font-size="14" font-weight="400">
+                            <tspan x="0" y="45">Luxury Hotel</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
