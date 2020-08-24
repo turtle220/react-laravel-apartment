@@ -3494,3 +3494,16 @@ footer
         padding: 40px 15px;
     }
 }
+
+@media (max-height: 1600px) and (min-height: 1200px) {
+    #header.sticky {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        border-top: 0;
+        background: var(--main-color, #1a2b48);
+        transition: top 0.5s;
+    }
+}

@@ -11,49 +11,23 @@
       
         <script src="{{ asset('js/app.js') }}" defer></script>
 
-        <script type="text/javascript" src="{{ asset('assets/js/jquery/jquery.js') }}" defer></script>
+        <script type="text/javascript" src="{{ asset('assets/js/jquery/jquery.js') }}"></script>
         <script type="text/javascript" src="{{ asset('assets/js/jquery-blockui/jquery.blockUI.min.js') }}" defer></script>
-        <script type="text/javascript" src="{{ asset('assets/js/masonry.pkgd.min.js') }}" defer></script>
-        <script type="text/javascript" src="{{ asset('assets/js/moment.min.js') }}" defer></script>
-        <script type="text/javascript" src="{{ asset('assets/js/modernizr.custom.js') }}" defer></script>
-        <script type="text/javascript" src="{{ asset('assets/js/daterangepicker/daterangepicker.js') }}" defer></script>
-        <script type="text/javascript" src="{{ asset('assets/js/scrollreveal.js') }}" defer></script>
-        <script type="text/javascript" src="{{ asset('assets/js/scroll-desktop-smooth.js') }}" defer></script>
-        <script type="text/javascript" src="{{ asset('assets/js/scroll-desktop.js') }}" defer></script>
-        <script type="text/javascript" src="{{ asset('assets/js/bootstrap.min.js') }}" defer></script>
         <script type="text/javascript" src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}" defer></script>
         <script type="text/javascript" src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}" defer></script>
         <script type="text/javascript" src="{{ asset('assets/js/vinhomeSlider.js') }}" defer></script>
         <script type="text/javascript" src="{{ asset('assets/js/single-hotel.js') }}" defer></script>
-        <script type="text/javascript" src="{{ asset('assets/js/dist/js_composer_front.min.js') }}" defer></script>
-        {{-- <script type="text/javascript" src="{{ asset('assets/js/scripts.js') }}" defer></script> --}}
-        {{-- <script type="text/javascript" src="{{ asset('assets/js/owlcarousel/owl.carousel.min.js') }}" defer></script> --}}
-        {{-- <script type="text/javascript" src="{{ asset('assets/js/js-cookie/js.cookie.min.js') }}" defer></script> --}}
-        {{-- <script type="text/javascript" src="{{ asset('assets/js/front/woocommerce.min.js') }}" defer></script> --}}
-        {{-- <script type="text/javascript" src="{{ asset('assets/js/front/cart-fragments.min.js') }}" defer></script> --}}
-        {{-- <script type="text/javascript" src="{{ asset('assets/js/fotorama/fotorama.js') }}" defer></script> --}}
-
-        <!-- Fonts -->
-        {{-- <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css"> --}}
-        <!-- Styles -->
-        {{-- <link rel="stylesheet" href="{{ asset('assets/css/single-hotel-checkout.css') }}" rel="stylesheet"> --}}
-        {{-- <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}" rel="stylesheet"> --}}
-
+      
         {{-- testimonial --}}
-        {{-- <link rel="stylesheet" href="{{ asset('assets/css/service.css') }}" rel="stylesheet"> --}}
-        <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         
         <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('assets/css/single-hotel.css') }}" rel="stylesheet">
-        <link rel="stylesheet" href="{{ asset('assets/css/single-hotel-new.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('assets/css/single-hotel-page.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('assets/css/single-hotel-responsive.css') }}" rel="stylesheet">
-        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-        <link rel="stylesheet" href="{{ asset('assets/css/js_composer.min.css') }}" rel="stylesheet">
-        <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}" rel="stylesheet">
         
     </head>
     
@@ -61,7 +35,7 @@
     class="home page-template page-template-template-hotel-activity page-template-template-hotel-activity-php page page-id-8460 hotel-single theme-traveler woocommerce-js wide menu_style1 topbar_position_default enable_nice_scroll search_enable_preload wpb-js-composer js-comp-ver-6.2.0 vc_responsive"
     style="height: 100%;">
 
-    <header id="header" class="">
+    <header id="header" class="header1">
         <div class="header-content top-bar-no" data-offset="0">
             <div class="background-scroll"></div>
             <div class="control-left">
@@ -73,7 +47,7 @@
                                 width="4538.000000pt" style="width:168px;height:100px" height="4167.000000pt" viewBox="0 0 4538.000000 4167.000000"
                                 preserveAspectRatio="xMidYMid meet">
                                <metadata>
-                               Created by potrace 1.16, written by Peter Selinger 2001-2019
+                                    Created by potrace 1.16, written by Peter Selinger 2001-2019
                                </metadata>
                                <g transform="translate(0.000000,4167.000000) scale(0.100000,-0.100000)"
                                fill="#000000" stroke="none">
@@ -462,397 +436,6 @@
                                 </div>
                                 <section class="st-filter">
                                     <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="filter-search">
-                                                    <form
-                                                        action="https://singlehotel.travelerwp.com/room-list-search-result/"
-                                                        class="template-hotel-activity_submit"
-                                                        method="get"
-                                                        accept-charset="utf-8"
-                                                    >
-                                                        <div class="row-5">
-                                                            <div class="col5 col6">
-                                                                <div class="choose-date">
-                                                                    <label>CheckIn</label>
-                                                                    <div class="item-search-content">
-                                                                        <div class="options">
-                                                                            <div class="day">
-                                                                                <span>20</span>
-                                                                            </div>
-                                                                            <div class="month-year">
-                                                                                <span>Aug,2020</span>
-                                                                            </div>
-                                                                        </div>
-                                                                        <input
-                                                                            type="hidden"
-                                                                            class="checkin_d"
-                                                                            name="checkin_d"
-                                                                            value="20"
-                                                                        />
-                                                                        <input
-                                                                            type="hidden"
-                                                                            class="checkin_m"
-                                                                            name="checkin_m"
-                                                                            value="8"
-                                                                        />
-                                                                        <input
-                                                                            type="hidden"
-                                                                            class="checkin_y"
-                                                                            name="checkin_y"
-                                                                            value="2020"
-                                                                        />
-                                                                        <input
-                                                                            type="hidden"
-                                                                            name="check_in"
-                                                                            class="wpbooking-date-start helios-input wb-"
-                                                                            readonly=""
-                                                                            value="20/08/2020"
-                                                                        />
-                                                                        <input
-                                                                            class="wpbooking-check-in-out"
-                                                                            data-custom-class=""
-                                                                            type="text"
-                                                                            name="check_in_out"
-                                                                            value="20/08/2020-21/08/2020"
-                                                                        />
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col5 col6">
-                                                                <div class="choose-date">
-                                                                    <label>CheckOut</label>
-                                                                    <div class="item-search-content">
-                                                                        <div class="options">
-                                                                            <div class="day">
-                                                                                <span>21</span>
-                                                                            </div>
-                                                                            <div class="month-year">
-                                                                                <span>Aug, 2020</span>
-                                                                            </div>
-                                                                        </div>
-                                                                        <input
-                                                                            type="hidden"
-                                                                            class="checkout_d"
-                                                                            name="checkout_d"
-                                                                            value="21"
-                                                                        />
-                                                                        <input
-                                                                            type="hidden"
-                                                                            class="checkout_m"
-                                                                            name="checkout_m"
-                                                                            value="8"
-                                                                        />
-                                                                        <input
-                                                                            type="hidden"
-                                                                            class="checkout_y"
-                                                                            name="checkout_y"
-                                                                            value="2020"
-                                                                        />
-                                                                        <input
-                                                                            type="text"
-                                                                            name="check_out"
-                                                                            class="wpbooking-date-end helios-input"
-                                                                            readonly=""
-                                                                            value="21/08/2020"
-                                                                        />
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col5 col6">
-                                                                <div class="choose-date">
-                                                                    <label>Number</label>
-                                                                    <div class="item-search-content">
-                                                                        <div class="st-number">
-                                                                            <div class="adult">
-                                                                                <span class="minus">
-                                                                                    <i class="input-icon field-icon fa"><svg
-                                                                                            width="16px"
-                                                                                            height="16px"
-                                                                                            viewBox="0 0 18 2"
-                                                                                            version="1.1"
-                                                                                            xmlns="http://www.w3.org/2000/svg"
-                                                                                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                        >
-                                                                                            <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
-    
-                                                                                            <desc>
-                                                                                                Created
-                                                                                                with
-                                                                                                Sketch.
-                                                                                            </desc>
-                                                                                            <defs></defs>
-                                                                                            <g
-                                                                                                id="Page-1"
-                                                                                                stroke="none"
-                                                                                                stroke-width="1"
-                                                                                                fill="none"
-                                                                                                fill-rule="evenodd"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round"
-                                                                                            >
-                                                                                                <g
-                                                                                                    id="Tour_Detail_2"
-                                                                                                    transform="translate(-1201.000000, -538.000000)"
-                                                                                                    stroke="#1A2B48"
-                                                                                                    stroke-width="1.5"
-                                                                                                >
-                                                                                                    <g
-                                                                                                        id="check-avai"
-                                                                                                        transform="translate(1035.000000, 271.000000)"
-                                                                                                    >
-                                                                                                        <g
-                                                                                                            id="child"
-                                                                                                            transform="translate(0.000000, 231.000000)"
-                                                                                                        >
-                                                                                                            <g
-                                                                                                                id="ico_subtract"
-                                                                                                                transform="translate(167.000000, 37.000000)"
-                                                                                                            >
-                                                                                                                <path
-                                                                                                                    d="M0.5,0.038 L15.5,0.038"
-                                                                                                                    id="Shape"
-                                                                                                                ></path>
-                                                                                                            </g>
-                                                                                                        </g>
-                                                                                                    </g>
-                                                                                                </g>
-                                                                                            </g></svg></i></span>
-                                                                                <strong
-                                                                                    class="num"
-                                                                                    >1</strong
-                                                                                >
-                                                                                <input
-                                                                                    type="hidden"
-                                                                                    name="adult_num_search"
-                                                                                    value="1"
-                                                                                    class="form-control st-input-number"
-                                                                                    autocomplete="off"
-                                                                                    readonly=""
-                                                                                    data-min="1"
-                                                                                    data-max="5"
-                                                                                />
-                                                                                <span class="plus">
-                                                                                    <i class="input-icon field-icon fa">
-                                                                                        <svg
-                                                                                            width="16px"
-                                                                                            height="16px"
-                                                                                            viewBox="0 0 18 18"
-                                                                                            version="1.1"
-                                                                                            xmlns="http://www.w3.org/2000/svg"
-                                                                                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                        >
-                                                                                            <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
-    
-                                                                                            <desc>
-                                                                                                Created
-                                                                                                with
-                                                                                                Sketch.
-                                                                                            </desc>
-                                                                                            <defs></defs>
-                                                                                            <g
-                                                                                                id="Page-1"
-                                                                                                stroke="none"
-                                                                                                stroke-width="1"
-                                                                                                fill="none"
-                                                                                                fill-rule="evenodd"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round"
-                                                                                            >
-                                                                                                <g
-                                                                                                    id="Tour_Detail_2"
-                                                                                                    transform="translate(-1268.000000, -531.000000)"
-                                                                                                    stroke="#1A2B48"
-                                                                                                    stroke-width="1.5"
-                                                                                                >
-                                                                                                    <g
-                                                                                                        id="check-avai"
-                                                                                                        transform="translate(1035.000000, 271.000000)"
-                                                                                                    >
-                                                                                                        <g
-                                                                                                            id="child"
-                                                                                                            transform="translate(0.000000, 231.000000)"
-                                                                                                        >
-                                                                                                            <g
-                                                                                                                id="ico_add"
-                                                                                                                transform="translate(234.000000, 30.000000)"
-                                                                                                            >
-                                                                                                                <path
-                                                                                                                    d="M0.5,8 L15.5,8"
-                                                                                                                    id="Shape"
-                                                                                                                ></path>
-                                                                                                                <path
-                                                                                                                    d="M8,0.5 L8,15.5"
-                                                                                                                    id="Shape"
-                                                                                                                ></path>
-                                                                                                            </g>
-                                                                                                        </g>
-                                                                                                    </g>
-                                                                                                </g>
-                                                                                            </g></svg></i></span>
-                                                                            </div>
-                                                                            <div class="type-person">
-                                                                                <span>Adults</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col5 col6">
-                                                                <div class="choose-date">
-                                                                    <label >Number</label>
-                                                                    <div class="item-search-content">
-                                                                        <div class="st-number">
-                                                                            <div class="adult">
-                                                                                <span
-                                                                                    class="minus"
-                                                                                    ><i
-                                                                                        class="input-icon field-icon fa"
-                                                                                        ><svg
-                                                                                            width="16px"
-                                                                                            height="16px"
-                                                                                            viewBox="0 0 18 2"
-                                                                                            version="1.1"
-                                                                                            xmlns="http://www.w3.org/2000/svg"
-                                                                                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                        >
-                                                                                            <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
-    
-                                                                                            <desc>
-                                                                                                Created
-                                                                                                with
-                                                                                                Sketch.
-                                                                                            </desc>
-                                                                                            <defs></defs>
-                                                                                            <g
-                                                                                                id="Page-1"
-                                                                                                stroke="none"
-                                                                                                stroke-width="1"
-                                                                                                fill="none"
-                                                                                                fill-rule="evenodd"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round"
-                                                                                            >
-                                                                                                <g
-                                                                                                    id="Tour_Detail_2"
-                                                                                                    transform="translate(-1201.000000, -538.000000)"
-                                                                                                    stroke="#1A2B48"
-                                                                                                    stroke-width="1.5"
-                                                                                                >
-                                                                                                    <g
-                                                                                                        id="check-avai"
-                                                                                                        transform="translate(1035.000000, 271.000000)"
-                                                                                                    >
-                                                                                                        <g
-                                                                                                            id="child"
-                                                                                                            transform="translate(0.000000, 231.000000)"
-                                                                                                        >
-                                                                                                            <g
-                                                                                                                id="ico_subtract"
-                                                                                                                transform="translate(167.000000, 37.000000)"
-                                                                                                            >
-                                                                                                                <path
-                                                                                                                    d="M0.5,0.038 L15.5,0.038"
-                                                                                                                    id="Shape"
-                                                                                                                ></path>
-                                                                                                            </g>
-                                                                                                        </g>
-                                                                                                    </g>
-                                                                                                </g>
-                                                                                            </g></svg></i></span>
-                                                                                <strong class="num">0</strong>
-                                                                                <input
-                                                                                    type="hidden"
-                                                                                    name="children_num_search"
-                                                                                    value="0"
-                                                                                    class="form-control st-input-number"
-                                                                                    autocomplete="off"
-                                                                                    readonly=""
-                                                                                    data-min="0"
-                                                                                    data-max="5"
-                                                                                />
-                                                                                <span
-                                                                                    class="plus"
-                                                                                    ><i
-                                                                                        class="input-icon field-icon fa"
-                                                                                        ><svg
-                                                                                            width="16px"
-                                                                                            height="16px"
-                                                                                            viewBox="0 0 18 18"
-                                                                                            version="1.1"
-                                                                                            xmlns="http://www.w3.org/2000/svg"
-                                                                                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                        >
-                                                                                            <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
-    
-                                                                                            <desc>
-                                                                                                Created
-                                                                                                with
-                                                                                                Sketch.
-                                                                                            </desc>
-                                                                                            <defs></defs>
-                                                                                            <g
-                                                                                                id="Page-1"
-                                                                                                stroke="none"
-                                                                                                stroke-width="1"
-                                                                                                fill="none"
-                                                                                                fill-rule="evenodd"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round"
-                                                                                            >
-                                                                                                <g
-                                                                                                    id="Tour_Detail_2"
-                                                                                                    transform="translate(-1268.000000, -531.000000)"
-                                                                                                    stroke="#1A2B48"
-                                                                                                    stroke-width="1.5"
-                                                                                                >
-                                                                                                    <g
-                                                                                                        id="check-avai"
-                                                                                                        transform="translate(1035.000000, 271.000000)"
-                                                                                                    >
-                                                                                                        <g id="child"
-                                                                                                            transform="translate(0.000000, 231.000000)"
-                                                                                                        >
-                                                                                                            <g
-                                                                                                                id="ico_add"
-                                                                                                                transform="translate(234.000000, 30.000000)"
-                                                                                                            >
-                                                                                                                <path
-                                                                                                                    d="M0.5,8 L15.5,8"
-                                                                                                                    id="Shape"
-                                                                                                                ></path>
-                                                                                                                <path
-                                                                                                                    d="M8,0.5 L8,15.5"
-                                                                                                                    id="Shape"
-                                                                                                                ></path>
-                                                                                                            </g>
-                                                                                                        </g>
-                                                                                                    </g>
-                                                                                                </g>
-                                                                                            </g></svg></i
-                                                                                ></span>
-                                                                            </div>
-                                                                            <div class="type-person">
-                                                                                <span>Children</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col5 col12">
-                                                                <div class="control">
-                                                                    <button class="btn btn-primary">
-                                                                        CHECK
-                                                                        <br />
-                                                                        AVAILABILITY
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </section>
                             </div>
@@ -868,40 +451,21 @@
     <div id="react-main" >
         <script src="{{asset('js/app.js')}}" ></script>
     </div>
-    
-    {{-- <div style="width:83.5%; margin-left:auto; margin-right:auto; dislpay:flex;"> --}}
-        {{-- <div class="label">Here’s what we’re doing to support communities in need during these trying times.</div> --}}
-        {{-- <div class="link">Find out more</div> --}}
-    {{-- <a class="featured-content" href="https://www.questapartments.com.au/about-quest/here-to-help" style="width:80%;" target="_blank">
-        <div class="picture" style="background-image: url('./images/match.jpg')"></div>
-        <div class="content" style="width:84%;" >
-            <div class="title">WELCOME TO OUR MELBOURNE</div>
-        </div>
-    </a>
-    <a class="featured-content" href="#" style="width:80%;" target="_blank">
-        <div class="picture" style="background-image: url('./images/International-6.jpg')"></div>
-        <div class="content" style="width:84%;" >
-            <div class="title">SEE THE LOCATIONS</div>
-        </div>
-    </a> --}}
-    {{-- <div class="label">Here’s what we’re doing to support communities in need during these trying times.</div> --}}
-    {{-- <div class="link">Find out more</div> --}}
-    {{-- </div> --}}
 
     <div class="clear-fix">
-
     </div>
+    
     <footer class="footer" style="width:102%; margin-left:auto; maring-right:auto">
         <div class="footer-top" style="display:flex; width:100%;">
             <div style="width:100%; display:flex;">
-                <div style="margin-left:250px; width:20%;">
+                <div style="margin-left:250px; width:21%;">
                     <div class="sfContentBlock detial-expand">
                         <h3 style="padding-bottom:7%;">Why Mega Style Apartments</h3>
                     </div>
                     <p style="color: #6A6C64;text-decoration: none;font-size: 13px;line-height: 30px;">Why Mega Style Apartments
                     We are a small group of passionate people that want to disrupt the hotel industry by providing fun and beautifully designed 1, 2 and 3 bedroom apartments to tourists, families and people that love to travel at reasonable prices, and, make high returns for property investors</p>
                 </div>
-                <div style="width:15%;">
+                <div style="width:15%;padding-left: 30px">
                     <div class="sfContentBlock detial-expand">
                         <h3 style="padding-bottom:10%;padding-right:70px;">Contact Us</h3>
                     </div>
@@ -912,14 +476,14 @@
                         E: hello@megastyleapartments.com.au
                         W: www.megastyleapartments.com.au</p>
                 </div>
-                <div style="width:20%; ">
+                <div style="width:26%; padding-left: 30px">
                     <div class="sfContentBlock detial-expand">
-                        <h3 style="padding-bottom:7%;padding-right:70px;">Why Mega Style Apartments</h3>
+                        <h3 style="padding-bottom:4%;">Why Mega Style Apartments</h3>
                     </div>
                         <p style="color: #6A6C64;text-decoration: none;font-size: 13px;line-height: 30px;">Why Mega Style Apartments
                         We are a small group of passionate people that want to disrupt the hotel industry by providing fun and beautifully designed 1, 2 and 3 bedroom apartments to tourists, families and people that love to travel at reasonable prices, and, make high returns for property investors</p>
                 </div>
-                <div style="width:20%;">
+                {{-- <div style="width:20%;">
                     <div class="sfContentBlock detial-expand">
                         <h3 style="padding-bottom:7%; padding-right:70px;">Subscribe Our Newsletter</h3>
                     </div>
@@ -929,13 +493,13 @@
                         <input type="submit" value="" class="btn btn-primary" id="st-submit">
                         <span id="icon-new-letter"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     
         <div style="background-color: #414142;display:flex;color: #fff;line-height: 30px;padding: 20px 0;width:100%; margin-left:auto; margin-right:auto">
             {{-- <img src="{{asset('images/Logo/Mega-2.jpg')}}" alt="" style="width:100px;height:120px; margin:0, auto;margin-left:245px;" /> --}}
-            <p style="width:80%; margin:0, auto;margin-left:245px;">© 2020, All Rights Reserved by Mega Style Apartments</p>
+            <p style="width:80%; margin:0, auto;margin-left:245px;margin-top: 6px;">© 2020, All Rights Reserved by Mega Style Apartments</p>
 
             <div style="display: flex;height: 50px;padding-left: 100px;width: 110%;">
                 <a href="#" target="_self" style="font-size: 18px; color:white" class="nav-link">Our Collection</a>
@@ -944,7 +508,7 @@
                 <a href="#" target="_self" style="font-size: 18px; color:white" class="nav-link">About Us</a>      
             </div>
 
-            <div style="display: flex;height: 50px;padding-left: 50px;width: 50%;">
+            <div style="display: flex;height: 50px;padding-left: 50px;width: 50%;margin-top: 10px">
                 <a class="facebook" href="https://www.facebook.com/QuestApartmentHotels/" target="_blank"></a>
                 <a class="instagram" href="https://www.instagram.com/questapartments/?hl=en" target="_blank"></a>
                 <a class="linkedin" href="https://www.linkedin.com/company-beta/129488/?pathWildcard=129488" target="_blank"></a>
@@ -955,3 +519,28 @@
     </body>
 </html>
  
+<style>
+    .header1 {
+        background-color: #0000;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        display: block;
+        transition: top 0.3s;
+    }
+</style>
+<script>
+    var prevScrollpos = window.pageYOffset;
+
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        // console.log("current------",currentScrollPos);
+        
+        if (currentScrollPos > 700) {
+            document.getElementById('header').classList.remove('header1');
+        }else{
+            document.getElementById('header').classList.add('header1');
+        }
+        prevScrollpos = currentScrollPos;
+    }
+</script>

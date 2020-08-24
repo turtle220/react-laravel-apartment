@@ -5,37 +5,37 @@ import './index.css';
 const OurService = () => {
     return (
         <Fragment>
-            <div class="vc_row wpb_row st bg-holder">
-                <div class="container">
-                    <div class="row">
-                        <div class="wpb_column column_container col-md-3">
-                            <div class="vc_column-inner wpb_wrapper"></div>
+            <div className="vc_row wpb_row st bg-holder">
+                <div className="container">
+                    <div className="row">
+                        <div className="wpb_column column_container col-md-3">
+                            <div className="vc_column-inner wpb_wrapper"></div>
                         </div>
 
-                        <div class="wpb_column column_container col-md-6">
-                            <div class="vc_column-inner wpb_wrapper">
-                                <div class="content-text padding-0 st-default">
-                                    <div class="st-text-center">
-                                        <h2 class="text-center   ">Our Services</h2>
-                                        <div class="box__separator  hidden-thumb "></div>
-                                        <div class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div className="wpb_column column_container col-md-6">
+                            <div className="vc_column-inner wpb_wrapper">
+                                <div className="content-text padding-0 st-default">
+                                    <div className="st-text-center">
+                                        <h2 className="text-center   ">Our Services</h2>
+                                        <div className="box__separator  hidden-thumb "></div>
+                                        <div className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="wpb_column column_container col-md-3">
-                            <div class="vc_column-inner wpb_wrapper"></div>
+                        <div className="wpb_column column_container col-md-3">
+                            <div className="vc_column-inner wpb_wrapper"></div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row display-flex-row" style={{ width: '75%', marginLeft: 'auto', marginRight: 'auto' }} data-sf-element="Row">
-                <div id="Header_C068_Col00" class="sf_colsIn col-md-4" data-sf-element="Column 1" data-placeholder-label="Column 1">
-                    <a class="call-out-box" href="#">
-                        <div class="panel-content">
-                            <div class="call-out-svg">
+            <div className="row display-flex-row" style={{ width: '75%', marginLeft: 'auto', marginRight: 'auto', paddingBottom:'60px' }} data-sf-element="Row">
+                <div id="Header_C068_Col00" className="sf_colsIn col-md-4" data-sf-element="Column 1" data-placeholder-label="Column 1">
+                    <a className="call-out-box" href="#">
+                        <div className="panel-content">
+                            <div className="call-out-svg">
                                 <svg
                                     version="1.1"
                                     id="Layer_1"
@@ -48,7 +48,7 @@ const OurService = () => {
                                     xmlSpace="preserve"
                                 >
                                     <path
-                                        class="st0"
+                                        className="st0"
                                         d="M166.9,14.7c-84.3,0-153,68.6-153,153c0,9.6,0.9,19.3,2.7,28.7c0.1,0.6,0.4,2.2,1,5.1
                             c2.3,10.3,5.8,20.5,10.2,30.2c16.5,38.8,52.7,98.4,132.2,162.2c2,1.6,4.4,2.4,6.8,2.4c2.4,0,4.8-0.8,6.8-2.4
                             c79.4-63.8,115.8-123.4,132.2-162.2c4.5-9.7,7.9-19.8,10.2-30.2c0.6-2.9,1-4.6,1-5.1c1.8-9.4,2.7-19.1,2.7-28.7
@@ -58,83 +58,83 @@ const OurService = () => {
                                 </svg>
                             </div>
                             <h2>DISCOVER OUR MELBOURNE COLLECTION</h2>
-                            <h3>Search 170+ locations in Australasia</h3>
+                            <h3>MELBOURNE in Australasia</h3>
                         </div>
                     </a>
                 </div>
-                <div id="Header_C068_Col01" class="sf_colsIn col-md-4" data-sf-element="Column 2" data-placeholder-label="Column 2">
-                    <a class="call-out-box" href="#" target="_blank">
-                        <div class="panel-content">
-                            <div class="call-out-svg">
+                <div id="Header_C068_Col01" className="sf_colsIn col-md-4" data-sf-element="Column 2" data-placeholder-label="Column 2">
+                    <a className="call-out-box" href="#" target="_blank">
+                        <div className="panel-content">
+                            <div className="call-out-svg">
                                 <svg id="Group_121" data-name="Group 121" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121.294 111.299">
                                     <path
                                         id="Path_966"
                                         data-name="Path 966"
-                                        class="cls-1"
+                                        className="cls-1"
                                         d="M90.968,51.236a5.987,5.987,0,0,0-2.024.4V37.071A5.962,5.962,0,0,0,82.874,31H56.567a5.65,5.65,0,0,0-4.047,1.619A5.65,5.65,0,0,0,48.472,31H22.165a5.962,5.962,0,0,0-6.071,6.071v14.57A5.937,5.937,0,0,0,8,57.307V69.449a1.912,1.912,0,0,0,2.024,2.024h2.024v6.071a1.912,1.912,0,0,0,2.024,2.024h76.9a1.912,1.912,0,0,0,2.024-2.024V71.472h2.024a1.912,1.912,0,0,0,2.024-2.024V57.307A5.962,5.962,0,0,0,90.968,51.236Zm-34.4-16.189H82.874A1.912,1.912,0,0,1,84.9,37.071v22.26H54.543V37.071A1.912,1.912,0,0,1,56.567,35.047ZM20.142,37.071a1.912,1.912,0,0,1,2.024-2.024H48.472A1.912,1.912,0,0,1,50.5,37.071v22.26H20.142V37.071ZM12.047,57.307a1.912,1.912,0,0,1,2.024-2.024,1.912,1.912,0,0,1,2.024,2.024V67.425H12.047Zm76.9,18.213H16.094V71.472h2.024a1.912,1.912,0,0,0,2.024-2.024V63.378H84.9v6.071a1.912,1.912,0,0,0,2.024,2.024h2.024Zm4.047-8.094H88.945V57.307a2.024,2.024,0,0,1,4.047,0Z"
                                         transform="translate(8.189 31.732)"
                                     ></path>
                                     <path
                                         id="Path_967"
                                         data-name="Path 967"
-                                        class="cls-1"
+                                        className="cls-1"
                                         d="M18.213,46.236a2.3,2.3,0,0,0,1.619-.607,1.574,1.574,0,0,0,.4-1.619L18.213,27.821A2.152,2.152,0,0,0,16.189,26H4.047a2.152,2.152,0,0,0-2.024,1.821L0,44.01a3.812,3.812,0,0,0,.4,1.619,2.3,2.3,0,0,0,1.619.607H8.094V84.685h4.047V46.236ZM14.368,30.047l.607,4.047H5.261l.607-4.047ZM4.857,38.142H15.38l.607,4.047H4.25Z"
                                         transform="translate(0 26.614)"
                                     ></path>
                                     <path
                                         id="Path_968"
                                         data-name="Path 968"
-                                        class="cls-1"
+                                        className="cls-1"
                                         d="M37.165,28.331A14.078,14.078,0,0,0,51.331,14.165a14.165,14.165,0,0,0-28.331,0A14.078,14.078,0,0,0,37.165,28.331Zm0-24.283A10.02,10.02,0,0,1,47.283,14.165a10.118,10.118,0,1,1-20.236,0A10.02,10.02,0,0,1,37.165,4.047Z"
                                         transform="translate(23.543)"
                                     ></path>
                                     <path
                                         id="Path_969"
                                         data-name="Path 969"
-                                        class="cls-1"
+                                        className="cls-1"
                                         d="M31.024,12.094h6.071a1.912,1.912,0,0,0,2.024-2.024,1.912,1.912,0,0,0-2.024-2.024H33.047V6.024a2.024,2.024,0,1,0-4.047,0v4.047A1.912,1.912,0,0,0,31.024,12.094Z"
                                         transform="translate(29.685 4.094)"
                                     ></path>
                                     <path
                                         id="Path_970"
                                         data-name="Path 970"
-                                        class="cls-1"
+                                        className="cls-1"
                                         d="M43.024,32.236H67.307a1.912,1.912,0,0,0,2.024-2.024V14.024A1.912,1.912,0,0,0,67.307,12H43.024A1.912,1.912,0,0,0,41,14.024V30.213A1.912,1.912,0,0,0,43.024,32.236Zm2.024-16.189H65.283V28.189H45.047Z"
                                         transform="translate(41.968 12.283)"
                                     ></path>
                                     <path
                                         id="Path_971"
                                         data-name="Path 971"
-                                        class="cls-1"
+                                        className="cls-1"
                                         d="M7.024,32.236H31.307a1.912,1.912,0,0,0,2.024-2.024V14.024A1.912,1.912,0,0,0,31.307,12H7.024A1.912,1.912,0,0,0,5,14.024V30.213A1.912,1.912,0,0,0,7.024,32.236ZM9.047,16.047H29.283V28.189H9.047Z"
                                         transform="translate(5.118 12.283)"
                                     ></path>
                                     <path
                                         id="Path_972"
                                         data-name="Path 972"
-                                        class="cls-1"
+                                        className="cls-1"
                                         d="M26.024,19A1.912,1.912,0,0,0,24,21.024V33.165a1.912,1.912,0,0,0,2.024,2.024H46.26a1.912,1.912,0,0,0,2.024-2.024V21.024A1.912,1.912,0,0,0,46.26,19ZM44.236,31.142H28.047V23.047H44.236Z"
                                         transform="translate(24.567 19.449)"
                                     ></path>
                                     <path
                                         id="Path_973"
                                         data-name="Path 973"
-                                        class="cls-1"
+                                        className="cls-1"
                                         d="M68.213,27.821A2.152,2.152,0,0,0,66.189,26H54.047a2.152,2.152,0,0,0-2.024,1.821L50,44.01a3.812,3.812,0,0,0,.4,1.619,2.186,2.186,0,0,0,1.417.607h6.071V84.685h4.047V46.236H68.01a2.3,2.3,0,0,0,1.619-.607,1.574,1.574,0,0,0,.4-1.619Zm-3.845,2.226.607,4.047H55.464l.607-4.047ZM54.25,42.189l.607-4.047H65.38l.607,4.047Z"
                                         transform="translate(51.181 26.614)"
                                     ></path>
                                 </svg>
                             </div>
-                            <h2>Long Stay Accommodation</h2>
+                            <h2>Fully Furnished</h2>
 
                             <h3>Find spacious serviced apartments</h3>
                         </div>
                     </a>
                 </div>
-                <div id="Header_C068_Col02" class="sf_colsIn col-md-4" data-sf-element="Column 3" data-placeholder-label="Column 3">
-                    <a class="call-out-box" href="#">
-                        <div class="panel-content">
-                            <div class="call-out-svg">
+                <div id="Header_C068_Col02" className="sf_colsIn col-md-4" data-sf-element="Column 3" data-placeholder-label="Column 3">
+                    <a className="call-out-box" href="#">
+                        <div className="panel-content">
+                            <div className="call-out-svg">
                                 <svg
                                     version="1.0"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -364,9 +364,9 @@ const OurService = () => {
                                     </g>
                                 </svg>
                             </div>
-                            <h2 class="">MegaStyle Stay Safe Promise</h2>
+                            <h2 className="">MegaStyle Stay Safe Promise</h2>
 
-                            <h3 class="">Information about your upcoming stay</h3>
+                            <h3 className="">Information about your upcoming stay</h3>
                         </div>
                     </a>
                 </div>

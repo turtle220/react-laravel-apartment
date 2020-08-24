@@ -1,0 +1,143 @@
+
+@media (max-width: 1023px) {
+    .facebook,
+    .instagram,
+    .linkedin,
+    .plus {
+        margin: 0 auto;
+    }
+}
+.linkedin {
+    background-image: url('../../images/linkedin-4.svg');
+    background-size: 30px 30px;
+}
+.facebook {
+    background-image: url('../../images/facebook-4.svg');
+    background-size: 30px 30px;
+}
+.instagram {
+    background-image: url('../../images/instagram-4.svg');
+    background-size: 30px 30px;
+}
+.facebook,
+.instagram,
+.linkedin,
+.plus {
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+
+.sfContentBlock > div ul li:not(.footer-social-item) {
+    padding: 0 0 0 24px;
+    position: relative;
+}
+.room-features-item:before,
+.sfContentBlock > div ul li:not(.footer-social-item):before {
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 10px solid #4f758b;
+    content: '';
+    position: absolute;
+    left: 0;
+}
+.footer {
+    margin-top: 0;
+}
+.footer:before,
+.footer:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.map-locations.active + .footer {
+    display: none;
+}
+
+.footer {
+    margin-top: 100px;
+}
+.footer-top {
+    background-color: #f6f6f5;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    position: relative;
+}
+@media (max-width: 1023px) {
+    .footer-top {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+.footer-bottom {
+    background-color: #414142;
+    color: #fff;
+    line-height: 30px;
+    padding: 24px 0;
+}
+.footer-logo {
+    display: block;
+    font-size: 80px;
+}
+@media (max-width: 1023px) {
+    .footer-logo {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+.footer-social {
+    font-size: 0;
+    margin: 0;
+    padding: 25px 0;
+    text-align: right;
+}
+@media (max-width: 1023px) {
+    .footer-social {
+        padding: 0;
+        text-align: center;
+    }
+}
+.footer-social-item {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    padding: 0;
+    vertical-align: middle;
+}
+@media (max-width: 1023px) {
+    .footer-social-item {
+        margin: 0;
+        width: 25%;
+    }
+}
+.footer-copy {
+    font-size: 11px;
+    line-height: 30px;
+}
+.footer-trigger {
+    display: none;
+}
+@media (max-width: 1023px) {
+    .footer-trigger {
+        display: block;
+        font-size: 24px;
+        height: 100%;
+        line-height: 50px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+.footer-trigger:after {
+    color: #a8a99e;
+    content: '+';
+    position: absolute;
+    right: 0;
+    transform: rotate(0deg);
+    transition: 0.25s;
+}
+.active .footer-trigger:after {
+    transform: rotate(-45deg);
+}
