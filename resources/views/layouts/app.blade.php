@@ -8,14 +8,31 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    {{-- <title>{{ config('app.name', 'Laravel') }}</title> --}}
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
+    <script type="text/javascript" src="{{ asset('assets/js/jquery/jquery.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/jquery-blockui/jquery.blockUI.min.js') }}" defer></script>
+    <script type="text/javascript" src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}" defer></script>
+    <script type="text/javascript" src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}" defer></script>
+    <script type="text/javascript" src="{{ asset('assets/js/vinhomeSlider.js') }}" defer></script>
+    <script type="text/javascript" src="{{ asset('assets/js/single-hotel.js') }}" defer></script>
+  
+    {{-- testimonial --}}
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/css/single-hotel.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/css/single-hotel-page.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/css/single-hotel-responsive.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}" rel="stylesheet">
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,    400,600" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -24,9 +41,9 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                {{-- <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
-                </a>
+                </a> --}}
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

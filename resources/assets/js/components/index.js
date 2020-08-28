@@ -16,6 +16,7 @@ if (document.getElementById('react-main')) {
                 <Switch>
                     {/* <Route exact path="/" component={Main} /> */}
                     <Route path="/" component={Home} />
+                    
                     {/* <Route
                             path='/wizard/enterBusinessName'
                             component={EnterBusinessName}
